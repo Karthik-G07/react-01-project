@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.parent{
+  display: flex;
+  gap:5px;
+  flex-wrap: wrap;
+
+}
+.crd{
+    
+  width: 300px;
+  min-height: 400px;
+  padding: 15px;
+border: 5px solid white;
+margin: 30px;
+border-radius: 15px;
+background-color: #ffff;
+  .top{
+   display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  margin: 3px;
+
+  img{
+    height: 65px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid #ccc6c6;
+    
+
+  }
+  p{
+   margin-top: 8PX;
+   margin-right: 15px;
+   border: 2px;
+   background-color: whitesmoke;
+   border-radius: 5px;
+    padding: 10px;
+  align-content: center;
+  font-size: 15px;
+  height: 40px;
+  color: rgb(94, 93, 93);
+
+
+  }
+
+  
+}
+
+.company{
+  margin-top: 30px;
+  font-size: 25px;
+
+span{
+   font-size: 10px;
+   color: rgb(108, 109, 110);
+}
+  
+}
+
+.role{
+  margin-top: 15px;
+  font-size: 12px;
+}
+.type
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  gap: 10px;
+
+  span{
+    border: 2px solid rgb(171, 168, 168);
+    padding: 5px;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: #f2f0f0 ;
+    
+  }
+}
+
+.bottom{
+  margin-top: 35px;
+  display: flex;
+  gap: 60px;
+  border-top: 5px solid #817d7d;
+  border-radius: 10px;
+  padding-top: 15px;
+
+.hour{
+  padding-left: 5px;
+  h5{
+    font-size: 20px;
+  }
+  p{
+    margin-top: 5px;
+    color: #898585;
+  }
+}
+.apply{
+
+  margin-top: 5px;
+  padding: 10px;
+ 
+
+
+  button{
+    font-size: 15px;
+    height: 30px;
+    width: 110px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    
+  }
+}
+}
+}
+
+
+
